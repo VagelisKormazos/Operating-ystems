@@ -2,11 +2,9 @@
 
 Write a C program with the appropriate fork() commands to create a total (including
 the main program P0) six processes, with the following kinship structure (tree):
-      P0
-    /    \
-   P1    P2
-        / | \
-       P3 P4 P5
+  
+       ![image](https://user-images.githubusercontent.com/100516014/200918783-e1c64fdc-9bd4-4804-823f-4233f26fa8ca.png)
+
 As a main part of its work each Pi process simply prints a message on the screen that
 indicating its name (Pi), its PID and its PPID. Your program should include
 additionally include appropriate wait commands to satisfy the following constraints.
